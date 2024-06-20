@@ -4,30 +4,32 @@
     margin: 0px;
     padding: 0px;
 }
-
-html,body{
-    height: 100vh;
-    width: 100vw;
+html,body {
     background-color: black;
+    width: 100vw;
+    height: 100vh;
 }
 body{
-    background-image: url(../imagem/fundo-madeira.jpg);
+    background: url(../imagem/fundo-madeira.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; /* o background funciona tbm se colocado no main */
 }
+
 main{
     position: relative;
     height: 100vh;
 }
-   
 
-section#telefone {
+section#telefone{
+   
+    background: url(../imagem/frame-iphone.png) no-repeat;
+
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%,-50%);
-    height: 627px;
+
     width: 311px;
-    
-    background: url(../imagem/frame-iphone.png);
+    height: 627px;
 }
+
