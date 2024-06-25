@@ -19,6 +19,7 @@ a {
     padding: 20px;
     text-decoration: none;
     margin-top: 5px;
+    font-weight: bolder;
 }
 a:hover{
     background-color: brown;
